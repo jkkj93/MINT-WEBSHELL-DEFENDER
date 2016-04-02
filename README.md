@@ -17,7 +17,7 @@ config/scan_extensions：配置要扫描的文件后缀名，每行配置一个�
 config/whitelist_dir：配置扫描白名单，每行配置一个路径，路径中的文件不会被扫描。
 </br>
 </br>
-2.首次使用时，必须执行Mint.py -record命令进行WEB目录中文件的SHA1值记录，执行完成后才能进行后续扫描、查杀操作。最好在网站程序上传后立即进行，这样可以保证目录中不存在WEBSHELL。WEB程序被修改后也必须执行Mint.py -record命令进行SHA1值更新。
+2.首次使用时，必须执行Mint.py -rec命令进行WEB目录中文件的SHA1值记录，执行完成后才能进行后续扫描、查杀操作。最好在网站程序上传后立即进行，这样可以保证目录中不存在WEBSHELL。WEB程序被修改后也必须执行Mint.py -rec命令进行SHA1值更新。
 </br>
 </br>
 3.执行Mint.py -scan命令进行WEBSHELL扫描，扫描结果会在命令执行完成后显示，也会记录在log/log日志文件中，此命令仅显示可能的WEBSHELL，不会进行查杀。
