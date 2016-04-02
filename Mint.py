@@ -75,7 +75,7 @@ if __name__ == "__main__":
                 all_the_text = 'WAIT TO ADD'
             print 'WHITELIST TO SKIP:\n'+all_the_text+'\n'
 
-        elif (sys.argv[1] == '-record'):
+        elif (sys.argv[1] == '-rec'):
             print 'RECORDING NOW,PLEASE WAIT\n'
             file_object = open(sys.path[0]+'//config//scan_dir')
             try:
@@ -164,7 +164,7 @@ if __name__ == "__main__":
         else:
             print '\nHOW TO USE:\n'
             print '1.Complete the configuration refer to the simple:'
-            print '2.Use "-record" to take notes of the SHA1 of WEBSITE files.If you have modified the WEBSITE files,You have to use "-record" to take notes of the SHA1 of these files again.'
+            print '2.Use "-rec" to take notes of the SHA1 of WEBSITE files.If you have modified the WEBSITE files,You have to use "-rec" to take notes of the SHA1 of these files again.'
             print '3.Use "-scan" to scan the webshell files'
             print '4.Use "-kill" to kill the webshell files(Program will kill webshell automatically without notification)'
             print '5.Use "-status" to show the status of configuration'
@@ -173,7 +173,7 @@ if __name__ == "__main__":
     else:
         print '\nHOW TO USE:\n'
         print '1.Complete the configuration refer to the simple:'
-        print '2.Use "-record" to take notes of the SHA1 of WEBSITE files.If you have modified the WEBSITE files,You have to use "-record" to take notes of the SHA1 of these files again.'
+        print '2.Use "-rec" to take notes of the SHA1 of WEBSITE files.If you have modified the WEBSITE files,You have to use "-rec" to take notes of the SHA1 of these files again.'
         print '3.Use "-scan" to scan the webshell files'
         print '4.Use "-kill" to kill the webshell files(Program will kill webshell automatically without notification)'
         print '5.Use "-status" to show the status of configuration'
